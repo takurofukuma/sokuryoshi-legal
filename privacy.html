@@ -22,13 +22,13 @@
   <h1>プライバシーポリシー</h1>
   <p>アプリ名：測量士 合格対策<br>
   開発者：KawaApp Studio<br>
-  最終更新：2026年9月14日</p>
+  最終更新：2026年9月20日</p>
 
   <h2>開発者による情報収集</h2>
   <p>本アプリは、ユーザーの個人情報・位置情報・端末識別情報・その他いかなる個人データも開発者側に収集することはありません。</p>
 
   <h2>ネットワーク通信</h2>
-  <p>本アプリは、学習進捗のiCloud同期（後述）を除き、インターネット通信を行いません。広告配信・解析・トラッキング目的の通信は一切ありません。</p>
+  <p>本アプリが行うインターネット通信は、学習進捗のiCloud同期（後述）と、App内課金にともなう通信（後述）だけです。広告配信・解析・トラッキング目的の通信は一切ありません。</p>
 
   <h2>端末内に保存されるデータ</h2>
   <p>学習進捗（解答履歴・正解率・苦手問題の自動抽出・ブックマーク）は、端末の UserDefaults / SharedPreferences に保存されます。アプリを削除すると、これらのデータも削除されます。</p>
@@ -37,8 +37,20 @@
   <p>iCloud にサインインしている iOS デバイスでは、学習進捗が iCloud Key-Value Store を通じて、ユーザー自身の iCloud アカウント内に自動保存されます。これにより同じ Apple ID の他端末との進捗共有や、機種変更時の引き継ぎが可能です。</p>
   <p>iCloud に保存されるデータはユーザー自身のアカウント管理下にあり、開発者がアクセスすることはありません。iCloud 同期を望まない場合は iOS の設定で本アプリの iCloud 利用をオフにできます。</p>
 
+  <h2>App内課金（買い切り）</h2>
+  <p>本アプリは買い切り型のApp内課金を提供します。決済は Apple の App Store（iOS）
+  および Google Play（Android）が行い、クレジットカード番号等の決済情報を本アプリが
+  取得することはありません。</p>
+  <p>購入状態（購入済みかどうか）の確認・復元には、課金基盤として
+  <strong>RevenueCat, Inc.</strong>（米国）のサービスを利用しています。このため、
+  ストアが発行した購入情報と、同社のしくみが端末ごとに生成する匿名の識別子が同社へ送信されます。
+  <strong>この確認は、購入の操作をしていない場合でもアプリの起動時に行われます。</strong>
+  氏名・メールアドレス・学習内容を同社へ送ることはありません。同社は当方が購入処理を
+  委託している事業者であり、第三者への販売・提供にはあたりません。同社における取り扱いは
+  <a href="https://www.revenuecat.com/privacy/">RevenueCat のプライバシーポリシー</a>に従います。</p>
+
   <h2>第三者サービス</h2>
-  <p>本アプリは広告、アナリティクス、外部SDKを一切使用していません。</p>
+  <p>本アプリは広告・アナリティクス、および広告・解析・トラッキング目的の第三者SDKを一切使用していません。App内課金の購入状態の管理にのみ、RevenueCat のSDKを利用しています（後述）。</p>
 
   <h2>レビュー誘導</h2>
   <p>Apple 純正の SKStoreReviewController（App Store の標準レビュー機能）のみを使用しています。本アプリが個別にユーザーの評価情報を取得することはありません。</p>
@@ -51,6 +63,6 @@
   <a href="mailto:asonedaywillberefreshing@gmail.com">asonedaywillberefreshing@gmail.com</a></p>
 
   <h2>Privacy Policy (English)</h2>
-  <p>This app does not collect any personal information, location data, or device identifiers. Buttons such as "report an error" or "contact us" only open your own mail app; the app never sends mail by itself. If you choose to send a message, the developer receives your email address, the subject, and the body, and uses them only to reply and to consider fixes and improvements. They are not shared with third parties. No network connections are made (except optional iCloud sync). No third-party SDKs or advertising are used. Study progress (answer history, accuracy, weak-question detection, bookmarks) is stored only in the device's UserDefaults/SharedPreferences and the user's own iCloud account, and is removed when the app is uninstalled.</p>
+  <p>This app does not collect any personal information, location data, or device identifiers. Buttons such as "report an error" or "contact us" only open your own mail app; the app never sends mail by itself. If you choose to send a message, the developer receives your email address, the subject, and the body, and uses them only to reply and to consider fixes and improvements. They are not shared with third parties. No network connections are made (except optional iCloud sync). No advertising, analytics or tracking SDKs are used; RevenueCat's SDK is used only to manage in-app purchase status. Study progress (answer history, accuracy, weak-question detection, bookmarks) is stored only in the device's UserDefaults/SharedPreferences and the user's own iCloud account, and is removed when the app is uninstalled.</p>
 </body>
 </html>
